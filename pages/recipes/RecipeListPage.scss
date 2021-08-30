@@ -1,0 +1,295 @@
+.RecipeListPage {
+
+   width: 100%;
+
+  .box1 {
+    width: 100%;
+    height: 120px;
+    background-color: #f4b886;
+  }
+  .commit {
+    display:flex;
+  }
+  .content img {
+    width: 100%;
+  }
+  .ph1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ph2 {
+    margin-bottom: 20px;
+  }
+
+  .carousel-item {
+    img {
+      width: 100%;
+    }
+  }
+
+  /* 死神老師 */
+  .wrapper {
+    max-width: 1203px;
+    margin: 0 auto;
+  }
+  .main-content {
+    display: flex;
+  }
+  .sidebar {
+    width: 230px;
+    background-color: #E8DDCA;
+    border: '1px solid #eee';
+    .more {
+      margin: 20px 0 0 0;
+      display: block;
+
+      .sub-menu {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .sub-menu img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .sid1 {
+    h4 {
+      display: flex;
+      justify-content: center;
+      color: #504e4e;
+    }
+  }
+
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  /* 右邊內容 */
+  .pag {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+  }
+  .rating {
+    display: flex;
+  }
+
+  .title {
+    margin: 0px 0 0 0;
+  }
+
+  /* 按鈕 */
+
+  .box {
+    width: 85px;
+    height: 36px;
+    background-color: #ddd2b8;
+    border-radius: 10px;
+    margin: 20px 0 0 0px;
+    display: flex;
+    justify-content: center;
+
+    h6 {
+      display: flex;
+      justify-content: center;
+      margin: 8px;
+      color: #504e4e;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  /* 食譜內容 */
+
+  .menu {
+    margin: 20px 0 0 0px;
+  }
+
+  .cookbook ul li img {
+    width: 100%;
+    border-radius: 3px;
+  }
+  .cookbook ul {
+    list-style-type: none;
+    margin: 0px 0px 0px -40px;
+  }
+  .look {
+    display: flex;
+    justify-self: start;
+    text-decoration: none;
+  }
+  .book {
+    margin: 0px 0px 0px 50px;
+  }
+
+  .avatar {
+    display: flex;
+    margin: 15px 20px 0 0;
+  }
+  .avatar p {
+    margin: 6px 10px 20px 10px;
+  }
+  .avatar img {
+    width: 50px;
+  }
+
+  .wow {
+    margin: 20px 0 0px 0px;
+  }
+  .bucket {
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+
+  /* 字體顏色 */
+
+  h1 {
+    color: #504e4e;
+  }
+  h2 {
+    color: #504e4e;
+  }
+  h3 {
+    color: #504e4e;
+  }
+  h5 {
+    color: #504e4e;
+  }
+  h4 {
+    color: #504e4e;
+  }
+  h3 i {
+    color: red;
+  }
+  h6 i {
+    color: red;
+  }
+  h6 {
+    // color: #504E4E;
+    font-size: 14px;
+  }
+  p {
+    color: #564e4a;
+    font-size: 14px;
+  }
+
+  .ellipsis {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+  .fas {
+    color: rgb(230, 210, 38);
+  }
+
+  /* 收藏按鈕 */
+
+
+  .keep{
+    width: 80px;
+    height: 34px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+  }
+  .keep1 {
+    width: 80px;
+    height: 34px;
+    border-radius: 10px;
+    margin: -5px 0px 0px 220px;
+
+    position:absolute;
+  }
+  h6 {
+    .far {
+      display: flex;
+      justify-content: center;
+      margin: 8px;
+      color: cornsilk;
+    }
+  }
+
+  .keep2 {
+    width: 85px;
+    height: 36px;
+    background: rgb(180, 38, 19);
+    border-radius: 10px;
+    margin: 65px 0px 0px 40px;
+
+    position: absolute;
+  }
+  .keep2 {
+    h6 {
+      display: flex;
+      justify-content: center;
+      margin: 8px;
+      color: cornsilk;
+    }
+  }
+
+  /* 動畫效果 */
+
+  .box2:hover {
+    /* background-color:#356EAF;
+        width:150px; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .sub-menu img:hover {
+    opacity: 0.4; 
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+
+  .look img:hover{
+    opacity: 0.9; 
+
+  }
+
+  .keep1:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+  }
+
+  main {
+    margin: 30px 0px 0px 20px;
+  }
+
+  .carousel-item img {
+    height: 520px;
+  }
+
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+  }
+
+  // body,
+  // button,
+  // input,
+  // select,
+  // textarea,
+  // h1,
+  // h2,
+  // h3,
+  // h4,
+  // h5,
+  // h6 {
+  //   font-family: Microsoft YaHei, "宋體", Tahoma, Helvetica, Arial, "\5b8b\4f53",
+  //     sans-serif;
+  // }
+}
